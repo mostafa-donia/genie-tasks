@@ -30,8 +30,11 @@
           "is_correct": false
         },
         "mcq_3": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٤:١٧ ص"
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:١٠:١٥ ص",
+          "answer": 0,
+          "chosen_text": "int (رقم صحيح)",
+          "is_correct": true
         },
         "mcq_4": {
           "status": "skipped",
@@ -71,7 +74,7 @@
           "is_correct": false
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:١٠:٠٥ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:١٠:١٦ ص"
     }
   }
 }
