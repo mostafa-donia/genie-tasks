@@ -397,13 +397,13 @@
         },
         "mcq_7": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٦:٣٦ م",
-          "answer": 2,
-          "chosen_text": "print(f\"You have gems\")",
-          "is_correct": false
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٦:٣٨ م",
+          "answer": 1,
+          "chosen_text": "print(f\"You have {gems}\")",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٦:٣٧ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٦:٣٩ م"
     }
   }
 }
