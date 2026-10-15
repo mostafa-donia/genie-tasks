@@ -233,5 +233,18 @@
       "hint": "ابدأ بـ energy = 20، وبعدها damage = int(input(...))، واحسب remaining = energy - damage. اختبر remaining باستخدام >= 10. اختبر البرنامج بأكثر من قيمة للضرر."
     }
   },
-  "students": {}
+  "students": {
+    "01080922432": {
+      "student_name": "محمد احمد",
+      "phone": "01080922432",
+      "week_id": "week_02",
+      "submissions": {
+        "mcq_1": {
+          "status": "skipped",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٥:٣٨ ص"
+        }
+      },
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٥:٣٩ ص"
+    }
+  }
 }
