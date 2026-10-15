@@ -284,9 +284,16 @@
           "answer": 1,
           "chosen_text": "print(f\"You have {gems}\")",
           "is_correct": true
+        },
+        "mcq_8": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٨ ص",
+          "answer": 1,
+          "chosen_text": "keys = int(input(\"Keys: \"))",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٤ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٩ ص"
     }
   }
 }
