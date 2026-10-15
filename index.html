@@ -1310,6 +1310,9 @@
             <button class="btn-secondary-action" onclick="downloadReferenceJSON()">
                 <span>📋 تحميل المرجع tasks_reference.json</span>
             </button>
+            <button class="btn-secondary-action" onclick="teacherManualReset()" style="color: #F87171; border-color: rgba(239, 68, 68, 0.4); background: rgba(239, 68, 68, 0.1);">
+                <span>🗑️ تصفير ومسح كل الحلول القديمة</span>
+            </button>
             <button class="btn-secondary-action" onclick="exportSubmissionsCSV()">
                 <span>📊 تصدير درجات الطلاب (CSV)</span>
             </button>
@@ -2337,6 +2340,11 @@
         if (!currentStudent || !currentStudent.phone) return;
         const key = `genie_student_${currentStudent.phone}`;
         const saved = JSON.parse(localStorage.getItem(key) || '{}');
+        if (saved.week_id && activeTasksData.week_id && saved.week_id !== activeTasksData.week_id) {
+            saved.submissions = {};
+            saved.week_id = activeTasksData.week_id;
+            localStorage.setItem(key, JSON.stringify(saved));
+        }
         currentSubmissions = saved.submissions || {};
     }
 
@@ -2422,13 +2430,48 @@
             const jsonText = decodeURIComponent(escape(atob(fileInfo.content)));
             const masterDb = JSON.parse(jsonText);
 
-            if (masterDb && masterDb.students) {
-                teacherStudentsDb = masterDb.students;
+            if (masterDb) {
+                const cloudResetId = masterDb.reset_id;
+                const localResetId = localStorage.getItem('genie_last_seen_reset_id');
+                
+                // If there's an active_tasks object in cloud that differs from current:
+                let tasksChanged = false;
+                if (masterDb.active_tasks && masterDb.active_tasks.week_id && masterDb.active_tasks.week_id !== activeTasksData.week_id) {
+                    activeTasksData = masterDb.active_tasks;
+                    tasksChanged = true;
+                }
+
+                // Check if a reset happened (either new reset_id or tasks changed)
+                const isReset = (cloudResetId && cloudResetId !== localResetId) || tasksChanged;
+
+                if (isReset) {
+                    localStorage.setItem('genie_last_seen_reset_id', cloudResetId || Date.now().toString());
+                    currentSubmissions = {};
+                    if (currentStudent && currentStudent.phone) {
+                        const key = `genie_student_${currentStudent.phone}`;
+                        localStorage.removeItem(key);
+                    }
+                    currentQuestionIndex = 0;
+                    buildQuestionList();
+                    renderNavChips();
+                    renderCurrentQuestion();
+                    updateHeaderInfo();
+
+                    if (!sessionStorage.getItem('genie_instructor_authed') && tasksChanged) {
+                        showToast(`🌟 تم تحديث المهام إلى ${activeTasksData.week_title || activeTasksData.week_id}! ابدأ الحل يا بطل`);
+                    }
+                }
+
+                teacherStudentsDb = masterDb.students || {};
                 localStorage.setItem('genie_cloud_db_cache', JSON.stringify(teacherStudentsDb));
 
                 // If active student is in cloud, sync local
-                if (currentStudent && currentStudent.phone && teacherStudentsDb[currentStudent.phone]) {
-                    currentSubmissions = teacherStudentsDb[currentStudent.phone].submissions || {};
+                if (currentStudent && currentStudent.phone) {
+                    if (teacherStudentsDb[currentStudent.phone]) {
+                        currentSubmissions = teacherStudentsDb[currentStudent.phone].submissions || {};
+                    } else if (isReset) {
+                        currentSubmissions = {};
+                    }
                     renderNavChips();
                 }
 
@@ -2656,27 +2699,153 @@
         document.getElementById('studentDetailModal').classList.add('open');
     }
 
-    function handleTeacherUpload(event) {
+    async function handleTeacherUpload(event) {
         const file = event.target.files[0];
         if (!file) return;
 
         const reader = new FileReader();
-        reader.onload = function(e) {
+        reader.onload = async function(e) {
             try {
                 const newTasks = JSON.parse(e.target.result);
+                if (!newTasks.week_id || (!newTasks.mcq_questions && !newTasks.fix_code_tasks)) {
+                    alert('الملف غير متوافق مع هيكل المهام. يرجى التأكد من احتوائه على week_id والأسئلة.');
+                    return;
+                }
+
+                const confirmReset = confirm(`سيتم تحميل: ${newTasks.week_title || newTasks.week_id}\n\n⚠️ تنبيه هام: سيتم حذف وتصفير جميع حلول وبيانات الطلاب السابقة للبدء من جديد. هل تريد المتابعة؟`);
+                if (!confirmReset) return;
+
+                showToast('جاري رفع الواجب الجديد وتصفير الإجابات السابقة سحابياً... ⏳');
+
+                // 1. Wipe all local data and answers
                 activeTasksData = newTasks;
                 currentQuestionIndex = 0;
+                currentSubmissions = {};
+                teacherStudentsDb = {};
+                localStorage.removeItem('genie_cloud_db_cache');
+
+                // Clear student local submission keys
+                const keysToRemove = [];
+                for (let i = 0; i < localStorage.length; i++) {
+                    const k = localStorage.key(i);
+                    if (k && k.startsWith('genie_student_')) {
+                        keysToRemove.push(k);
+                    }
+                }
+                keysToRemove.forEach(k => localStorage.removeItem(k));
+
+                const resetId = Date.now().toString();
+                localStorage.setItem('genie_last_seen_reset_id', resetId);
+
+                // 2. Wipe cloud submissions.json and store new tasks
+                await resetCloudSubmissions(newTasks, resetId);
+
+                // 3. Update tasks.json on GitHub repo as well
+                updateTasksJsonOnRepo(newTasks);
+
+                // 4. Rebuild UI
                 buildQuestionList();
                 renderNavChips();
                 renderCurrentQuestion();
                 updateHeaderInfo();
-                closeTeacherDashboard();
-                showToast(`تم تحميل الواجب الجديد بنجاح: ${newTasks.week_title || ''} 🎉`);
+                renderTeacherStudentsTable();
+
+                showToast(`تم بنجاح! تم نشر الواجب وتصفير كل الإجابات القديمة 🎉`);
             } catch (err) {
-                alert('خطأ في قراءة ملف الـ JSON: ' + err.message);
+                alert('خطأ في معالجة ملف المهام: ' + err.message);
             }
         };
         reader.readAsText(file);
+        event.target.value = '';
+    }
+
+    async function resetCloudSubmissions(newTasksObj = null, resetId = null) {
+        if (!resetId) resetId = Date.now().toString();
+        try {
+            const getRes = await fetch(G_REPO_FILE + "?ts=" + Date.now(), {
+                headers: { "Authorization": "Bearer " + getCloudAuth() },
+                cache: "no-store"
+            });
+            const fileInfo = await getRes.json();
+
+            const masterDb = {
+                week_id: newTasksObj ? newTasksObj.week_id : (activeTasksData.week_id || 'week_01'),
+                reset_id: resetId,
+                last_reset: new Date().toLocaleString('ar-EG'),
+                active_tasks: newTasksObj || activeTasksData,
+                students: {} // Wipes all old student data and answers!
+            };
+
+            const newContentB64 = btoa(unescape(encodeURIComponent(JSON.stringify(masterDb, null, 2))));
+            await fetch(G_REPO_FILE, {
+                method: "PUT",
+                headers: {
+                    "Authorization": "Bearer " + getCloudAuth(),
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    message: `reset submissions & set tasks: ${masterDb.week_id}`,
+                    content: newContentB64,
+                    sha: fileInfo.sha,
+                    branch: "main"
+                })
+            });
+            console.log("Cloud submissions reset successfully!");
+        } catch (e) {
+            console.error("Error resetting cloud submissions:", e);
+        }
+    }
+
+    async function updateTasksJsonOnRepo(newTasksObj) {
+        try {
+            const url = "https://api.github.com/repos/mostafa-donia/genie-tasks/contents/tasks.json";
+            const getRes = await fetch(url + "?ts=" + Date.now(), {
+                headers: { "Authorization": "Bearer " + getCloudAuth() },
+                cache: "no-store"
+            });
+            if (!getRes.ok) return;
+            const fileInfo = await getRes.json();
+            const contentB64 = btoa(unescape(encodeURIComponent(JSON.stringify(newTasksObj, null, 2))));
+            await fetch(url, {
+                method: "PUT",
+                headers: {
+                    "Authorization": "Bearer " + getCloudAuth(),
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    message: `update tasks.json for ${newTasksObj.week_id}`,
+                    content: contentB64,
+                    sha: fileInfo.sha,
+                    branch: "main"
+                })
+            });
+            console.log("tasks.json updated on repo successfully!");
+        } catch (e) {
+            console.error("Error updating tasks.json on repo:", e);
+        }
+    }
+
+    async function teacherManualReset() {
+        const ok = confirm("⚠️ تحذير مهم:\nهل أنت متأكد من تصفير ومسح جميع إجابات وبيانات الطلاب القديمة للواجب الحالي؟\nهذا الإجراء سيمسح السجلات السحابية وسيعيد كل الطلاب إلى 0% للبدء من جديد.");
+        if (!ok) return;
+
+        showToast('جاري تصفير ومسح إجابات الطلاب سحابياً... ⏳');
+        const resetId = Date.now().toString();
+        localStorage.setItem('genie_last_seen_reset_id', resetId);
+        teacherStudentsDb = {};
+        currentSubmissions = {};
+        localStorage.removeItem('genie_cloud_db_cache');
+
+        if (currentStudent && currentStudent.phone) {
+            localStorage.removeItem(`genie_student_${currentStudent.phone}`);
+        }
+
+        await resetCloudSubmissions(activeTasksData, resetId);
+        renderTeacherStudentsTable();
+        renderNavChips();
+        renderCurrentQuestion();
+        updateHeaderInfo();
+        showToast('تم تصفير ومسح جميع إجابات الطلاب بنجاح 🗑️');
     }
 
     function downloadTasksTemplate() {
