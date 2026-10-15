@@ -369,9 +369,16 @@
           "answer": 1,
           "chosen_text": "keys = int(input(\"Keys: \"))",
           "is_correct": true
+        },
+        "mcq_9": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٨:٠٠ م",
+          "answer": 1,
+          "chosen_text": "temperature < 10",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٤٨ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٨:٠٢ م"
     }
   }
 }
