@@ -313,8 +313,16 @@
       "student_name": "..",
       "phone": "151311151315",
       "week_id": "week_02",
-      "submissions": {},
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٥:٢٥ م"
+      "submissions": {
+        "mcq_1": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٥:٣٥ م",
+          "answer": 1,
+          "chosen_text": "==",
+          "is_correct": true
+        }
+      },
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٥:٣٦ م"
     }
   }
 }
