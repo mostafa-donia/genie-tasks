@@ -359,9 +359,16 @@
           "answer": 1,
           "chosen_text": "==",
           "is_correct": true
+        },
+        "mcq_2": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٥٣ م",
+          "answer": 0,
+          "chosen_text": "Find batteries",
+          "is_correct": false
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٢١ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٥٤ م"
     }
   }
 }
