@@ -352,8 +352,16 @@
       "student_name": "ليليان عماد عبد ربه",
       "phone": "01027324456",
       "week_id": "week_02",
-      "submissions": {},
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:٠٩:٤٠ م"
+      "submissions": {
+        "mcq_1": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٢٠ م",
+          "answer": 1,
+          "chosen_text": "==",
+          "is_correct": true
+        }
+      },
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٢١ م"
     }
   }
 }
