@@ -366,9 +366,16 @@
           "answer": 1,
           "chosen_text": "Robot powered",
           "is_correct": true
+        },
+        "mcq_3": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:١١:٢٨ م",
+          "answer": 0,
+          "chosen_text": "hearts = 3",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١١:٠٦ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١١:٢٩ م"
     }
   }
 }
