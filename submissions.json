@@ -362,13 +362,13 @@
         },
         "mcq_2": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٥٣ م",
-          "answer": 0,
-          "chosen_text": "Find batteries",
-          "is_correct": false
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:١١:٠٥ م",
+          "answer": 1,
+          "chosen_text": "Robot powered",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١٠:٥٤ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:١١:٠٦ م"
     }
   }
 }
