@@ -355,9 +355,16 @@
           "answer": 1,
           "chosen_text": "Recharge",
           "is_correct": true
+        },
+        "mcq_7": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٢٧ م",
+          "answer": 0,
+          "chosen_text": "print(\"You have {gems}\")",
+          "is_correct": false
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٦:٥٨ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٢٧ م"
     }
   }
 }
