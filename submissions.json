@@ -320,9 +320,16 @@
           "answer": 1,
           "chosen_text": "==",
           "is_correct": true
+        },
+        "mcq_2": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٥:٥٦ م",
+          "answer": 1,
+          "chosen_text": "Robot powered",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٥:٣٦ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٥:٥٧ م"
     }
   }
 }
