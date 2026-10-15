@@ -1,0 +1,88 @@
+{
+  "week_id": "week_02",
+  "week_number": 2,
+  "week_title": "الواجب الأسبوعي 02: الشروط واتخاذ القرارات if / else 🚦",
+  "topic_ar": "مراجعة الشروط المنطقية وعلامات المقارنة (==, >, <)",
+  "topic_en": "If-Else Conditions & Comparison Operators",
+  "target_age": "8-12 سنة",
+  "mcq_questions": [
+    {
+      "id": "mcq_1",
+      "number": 1,
+      "title": "الشرط if",
+      "question": "كلمة if في بايثون معناها إيه باللغة العربية؟",
+      "hint": "بنستخدمها لما بنقول: لو حصل كذا اعمل كذا.",
+      "code_snippet": "if score >= 50:\n    print(\"Pass\")",
+      "options": [
+        "إذا كان أو لو الشرط اتحقق",
+        "كرر الكود 10 مرات",
+        "اطبع على الطابعة"
+      ],
+      "correct_index": 0,
+      "explanation": "صح يا بطل! if معناها (لو) أو (إذا كان)."
+    },
+    {
+      "id": "mcq_2",
+      "number": 2,
+      "title": "المقارنة والتساوي",
+      "question": "لو عايز أسأل في الشرط هل المتغير x بيساوي 5 بالظبط، بكتب إيه؟",
+      "hint": "علامة التساوي المزدوجة للمقارنة.",
+      "code_snippet": "if x == 5:",
+      "options": [
+        "==",
+        "=",
+        "++"
+      ],
+      "correct_index": 0,
+      "explanation": "علامة = الواحدة لوضع قيمة، أما == الاتنين للمقارنة والشرط."
+    }
+  ],
+  "fix_code_tasks": [
+    {
+      "id": "fix_1",
+      "number": 3,
+      "title": "صلح شرط إشارة المرور 🚦",
+      "instructions": "لو الإشارة green المفروض يطبع Go! بس الشرط مكتوب غلط. صلح السطر 2.",
+      "template_lines": [
+        {
+          "line": 1,
+          "code": "light = \"green\"",
+          "locked": true
+        },
+        {
+          "line": 2,
+          "code": "if light != \"green\":  # صلح هنا: المفروض لو بيساوي green!",
+          "locked": false,
+          "placeholder": "if light == \"green\":"
+        },
+        {
+          "line": 3,
+          "code": "    print(\"Go!\")",
+          "locked": true
+        }
+      ],
+      "expected_output": "Go!",
+      "hint": "استخدم == للمقارنة بدل !=."
+    }
+  ],
+  "guided_project": {
+    "id": "guided_1",
+    "number": 4,
+    "title": "مشروع اختبار درجات الطالب 🎓",
+    "instructions": "امشِ مع الكومنتات واكتب شرط النجاح.",
+    "initial_code": "# 1. درجة الطالب = 85\ndegree = 85\n\n# 2. لو الدرجة أكبر من أو تساوي 50 اطبع Success\nif degree >= 50:\n    print(\"Success\")",
+    "expected_output": "Success",
+    "hint": "اتأكد من وجود النقطتين : بعد الشرط والمسافة البادئة."
+  },
+  "solo_challenge": {
+    "id": "solo_1",
+    "number": 5,
+    "title": "تحدي فحص كلمة السر 🔐",
+    "instructions": "عرف متغير password = \"1234\"، ولو بيساوي \"1234\" اطبع Welcome!",
+    "initial_code": "# اكتب كودك هنا لوحدك\npassword = \"1234\"\nif password == \"1234\":\n    print(\"Welcome!\")",
+    "expected_output_contains": [
+      "Welcome!"
+    ],
+    "hint": "استخدم if password == \"1234\": ثم print(\"Welcome!\")"
+  }
+}

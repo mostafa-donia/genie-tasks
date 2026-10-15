@@ -1,0 +1,301 @@
+import json
+import os
+
+target_dir = r"C:\Users\Admin\.gemini\antigravity\scratch\genie-tasks-platform"
+os.makedirs(target_dir, exist_ok=True)
+
+logo_path = r"C:\Users\Admin\.gemini\antigravity\brain\254f8f1d-ee3b-47dd-abe1-87a1bb03754d\logo_base64.txt"
+with open(logo_path, "r", encoding="utf-8") as f:
+    logo_base64 = f.read().strip()
+
+# DEFAULT WEEK 01 TASKS JSON
+tasks_week_01 = {
+    "week_id": "week_01",
+    "week_number": 1,
+    "week_title": "الواجب الأسبوعي 01: المتغيرات والمدخلات والعمليات 🐍",
+    "topic_ar": "مراجعة الخزانات (Variables)، الطباعة print، المدخلات input، والعمليات الحسابية",
+    "topic_en": "Variables, Print, Input & Arithmetic Operations",
+    "target_age": "8-12 سنة",
+    "mcq_questions": [
+        {
+            "id": "mcq_1",
+            "number": 1,
+            "title": "الخزان (Variable)",
+            "question": "الخزان يعني Variable في البرمجة، بنستخدمه عشان إيه؟",
+            "hint": "زي العلبة أو الدرج اللي بنحط جواه لعبتنا ونقدر نغيرها.",
+            "code_snippet": "cup = \"tea\"",
+            "options": [
+                "مكان بنخزن جواه قيمة ونقدر نغير اللي جواه في أي وقت",
+                "زرار بنقفله عشان نطفي الكمبيوتر خالص",
+                "شاشة العرض بتاعة اللاب توب"
+            ],
+            "correct_index": 0,
+            "explanation": "صح يا بطل! المتغير هو مكان بنخزن فيه حاجة زي اسم أو رقم، ونقدر نغير قيمته في أي وقت."
+        },
+        {
+            "id": "mcq_2",
+            "number": 2,
+            "title": "أنواع البيانات: النصوص (String)",
+            "question": "في بايثون، أي كلام بيتكتب بين إيه؟",
+            "hint": "زي كلمة \"Ali\" أو \"Hello\".",
+            "code_snippet": "name = \"Ali\"",
+            "options": [
+                "بين علامتي تنصيص \" \"",
+                "بين أقواس مربعة [ ]",
+                "بدون أي علامات خالص"
+            ],
+            "correct_index": 0,
+            "explanation": "شاطر جداً! النصوص والكلام في بايثون لازم نكتبها بين علامتي تنصيص \" \"."
+        },
+        {
+            "id": "mcq_3",
+            "number": 3,
+            "title": "أنواع البيانات: الأرقام الصحيحة (int)",
+            "question": "لو عايز أسجل عمر الطالب 8 سنوات، نوع الرقم ده إيه؟",
+            "hint": "رقم سليم مفيش فيه نقطة أو فواصل.",
+            "code_snippet": "age = 8",
+            "options": [
+                "int (رقم صحيح)",
+                "String (كلام)",
+                "float (رقم عشري)"
+            ],
+            "correct_index": 0,
+            "explanation": "ممتاز! 8 هو رقم صحيح بدون فواصل عشرية، فاسمه int."
+        },
+        {
+            "id": "mcq_4",
+            "number": 4,
+            "title": "أنواع البيانات: الأرقام العشرية (float)",
+            "question": "طول الطالب 1.35 متر، نوع الرقم ده إيه في بايثون؟",
+            "hint": "فيه نقطة عشرية (Point).",
+            "code_snippet": "height = 1.35",
+            "options": [
+                "float (رقم عشري فيه بوينت)",
+                "int (رقم صحيح)",
+                "input (إدخال)"
+            ],
+            "correct_index": 0,
+            "explanation": "برافو! أي رقم فيه نقطة عشرية زي 1.35 أو 2.5 بيسمى float."
+        },
+        {
+            "id": "mcq_5",
+            "number": 5,
+            "title": "الفرق في الطباعة print()",
+            "question": "بص للكود ده كويس، السطر التاني هيطبع إيه على الشاشة؟",
+            "hint": "ركز: هل كلمة name بين علامتي تنصيص؟ لأ، دي اسم الخزان!",
+            "code_snippet": "name = \"Ali\"\nprint(name)",
+            "options": [
+                "هيطبع: Ali (القيمة اللي جوه الخزان)",
+                "هيطبع كلمة: name بالحروف",
+                "مش هيطبع أي حاجة وهيطلع غلط"
+            ],
+            "correct_index": 0,
+            "explanation": "تركيزك عالي! بما إن مفيش علامات تنصيص، بايثون هيروح يفتح الخزان name ويطبع اللي جواه وهو Ali."
+        },
+        {
+            "id": "mcq_6",
+            "number": 6,
+            "title": "قوة الـ f-string",
+            "question": "في السطر ده: print(f\"Hello {name}\") الأقواس {} وظيفتها إيه؟",
+            "hint": "بتحجز مكان لحاجة جوة الرسالة.",
+            "code_snippet": "name = \"Ali\"\nprint(f\"Hello {name}\")",
+            "options": [
+                "مكان بنحط جواه اسم الخزان عشان يطبع قيمته",
+                "شكل جمالي بس وموش فايدة",
+                "عشان نقفل البرنامج بعد ما يخلص"
+            ],
+            "correct_index": 0,
+            "explanation": "صح يا نجم! القوسين {} في f-string هما المكان المخصص اللي بايثون بيحط فيه قيمة الخزان."
+        },
+        {
+            "id": "mcq_7",
+            "number": 7,
+            "title": "أخذ البيانات من المستخدم input()",
+            "question": "لو عايز أطلب من المستخدم يكتب اسمه، هستخدم دالة إيه؟",
+            "hint": "كلمة إنجليزية معناها (إدخال).",
+            "code_snippet": "name = input(\"Enter your name: \")",
+            "options": [
+                "input()",
+                "print()",
+                "int()"
+            ],
+            "correct_index": 0,
+            "explanation": "تمام يا بطل! دالة input() بتوقف البرنامج وتستنى المستخدم يكتب من الكيبورد."
+        },
+        {
+            "id": "mcq_8",
+            "number": 8,
+            "title": "تحويل المدخلات إلى أرقام",
+            "question": "ليه كتبنا int() برة input() في السطر ده؟",
+            "hint": "input() لوحدها بتدخل كلام، واحنا عايزين نعمل حسابات برقم صحيح!",
+            "code_snippet": "age = int(input(\"Enter your age: \"))",
+            "options": [
+                "عشان نحول اللي المستخدم هيكتبه من كلام إلى رقم صحيح نقدر نحسب بيه",
+                "عشان نطبع الاسم على الشاشة بسرعة",
+                "عشان نحذف الإجابة القديمة"
+            ],
+            "correct_index": 0,
+            "explanation": "أحسنت! لو مستخدم كتب 8 في input عادية بتدخل كـ \"8\" كلام، فـ int() بتحولها لرقم حقيقي 8."
+        },
+        {
+            "id": "mcq_9",
+            "number": 9,
+            "title": "العمليات الحسابية: الضرب",
+            "question": "علامة الضرب في لغة بايثون بتتكتب إزاي؟",
+            "hint": "شكلها نجمة مش حرف x.",
+            "code_snippet": "total = 5 * 3",
+            "options": [
+                "علامة النجمة (*)",
+                "حرف الإكس (x)",
+                "علامة الشباك (#)"
+            ],
+            "correct_index": 0,
+            "explanation": "شاطر جداً! في البرمجة كلها علامة الضرب هي النجمة (*) و 5 * 3 = 15."
+        },
+        {
+            "id": "mcq_10",
+            "number": 10,
+            "title": "العمليات الحسابية: الطرح",
+            "question": "ما نتيجة تشغيل هذا الكود؟",
+            "hint": "معاك 10 وصرفت منهم 4، فاضل معاك كام؟",
+            "code_snippet": "wallet = 10\nspent = 4\nresult = wallet - spent\nprint(result)",
+            "options": [
+                "6",
+                "14",
+                "40"
+            ],
+            "correct_index": 0,
+            "explanation": "برافو عليك! 10 - 4 = 6، والكود هيطبع 6 على الشاشة."
+        }
+    ],
+    "fix_code_tasks": [
+        {
+            "id": "fix_1",
+            "number": 11,
+            "title": "صلح كود جمع المصروف 💰",
+            "instructions": "الكود ده المفروض يجمع المصروف اللي كان معاك (20) على الفلوس اللي بابا إداهالك (10)، بس اللي كتب الكود غلط وعمل طرح بدل جمع! صلح السطر رقم 3 عشان يطبع 30.",
+            "template_lines": [
+                {"line": 1, "code": "wallet = 20", "locked": True},
+                {"line": 2, "code": "gift = 10", "locked": True},
+                {"line": 3, "code": "total = wallet - gift  # صلح هنا: عايزين نجمع بدل ما نطرح!", "locked": False, "placeholder": "total = wallet + gift"},
+                {"line": 4, "code": "print(total)", "locked": True}
+            ],
+            "expected_output": "30",
+            "hint": "غير علامة الطرح (-) لعلامة الجمع (+) في السطر التالت."
+        },
+        {
+            "id": "fix_2",
+            "number": 12,
+            "title": "صلح رسالة الترحيب f-string 👋",
+            "instructions": "الكود المفروض يطبع Hello Ali بس نسي يحط حرف f قبل علامة التنصيص أو نسي الأقواس! صلح السطر 2 عشان يطبع Hello Ali بالظبط.",
+            "template_lines": [
+                {"line": 1, "code": "name = \"Ali\"", "locked": True},
+                {"line": 2, "code": "print(\"Hello name\")  # صلح هنا: استخدم f-string مع {name}", "locked": False, "placeholder": "print(f\"Hello {name}\")"}
+            ],
+            "expected_output": "Hello Ali",
+            "hint": "اكتب print(f\"Hello {name}\") عشان بايثون يعوض عن {name} بـ Ali."
+        }
+    ],
+    "guided_project": {
+        "id": "guided_1",
+        "number": 13,
+        "title": "مشروع فاتورة البيتزا 🍕 (امشِ ورا الكومنتات)",
+        "instructions": "اقرأ التعليقات العربي اللي جوة الكود كويس، واكتب تحت كل خطوة السطر المطلوب لحساب إجمالي تمن 4 بيتزات وسعر الواحدة 50 جنيه.",
+        "initial_code": "# 1. خزان لعدد البيتزا: اكتب 4\npizzas = 4\n\n# 2. خزان لسعر البيتزا الواحدة: اكتب 50\nprice = 50\n\n# 3. احسب الإجمالي: اضرب عدد البيتزا في السعر (استخدم علامة *)\ntotal = pizzas * price\n\n# 4. اطبع الناتج النهائي للخزان total\nprint(total)",
+        "expected_output": "200",
+        "hint": "الضرب بيتعمل بعلامة النجمة: pizzas * price وفي الآخر اطبع print(total)"
+    },
+    "solo_challenge": {
+        "id": "solo_1",
+        "number": 14,
+        "title": "تحدي البطل الصغير 🚀: كبسولة توزيع الحلوى (اكتب كودك لوحدك)",
+        "instructions": "اكتب برنامج بالكامل من الصفر لوحدك!\nعندك 15 قطعة حلوى (candies = 15)، وعايز توزعهم بالتساوي على 3 أطفال (kids = 3). احسب نصيب كل طفل واطبع الناتج على الشاشة.",
+        "initial_code": "# اكتب كودك كامل هنا يا بطل لوحدك!\n# عرف candies و kids واحسب النصيب واطبعه بالـ print\n",
+        "expected_output_contains": ["5"],
+        "hint": "استخدم القسمة: share = 15 // 3 أو candies // kids واطبع الناتج print(share)."
+    }
+}
+
+# SAVE TASKS WEEK 01
+with open(os.path.join(target_dir, "tasks.json"), "w", encoding="utf-8") as f:
+    json.dump(tasks_week_01, f, ensure_ascii=False, indent=2)
+
+# SAVE WEEK 02 DEMO TEMPLATE AS WELL (FOR EASY SWITCHING BY TEACHER)
+tasks_week_02 = {
+    "week_id": "week_02",
+    "week_number": 2,
+    "week_title": "الواجب الأسبوعي 02: الشروط واتخاذ القرارات if / else 🚦",
+    "topic_ar": "مراجعة الشروط المنطقية وعلامات المقارنة (==, >, <)",
+    "topic_en": "If-Else Conditions & Comparison Operators",
+    "target_age": "8-12 سنة",
+    "mcq_questions": [
+        {
+            "id": "mcq_1",
+            "number": 1,
+            "title": "الشرط if",
+            "question": "كلمة if في بايثون معناها إيه باللغة العربية؟",
+            "hint": "بنستخدمها لما بنقول: لو حصل كذا اعمل كذا.",
+            "code_snippet": "if score >= 50:\n    print(\"Pass\")",
+            "options": [
+                "إذا كان أو لو الشرط اتحقق",
+                "كرر الكود 10 مرات",
+                "اطبع على الطابعة"
+            ],
+            "correct_index": 0,
+            "explanation": "صح يا بطل! if معناها (لو) أو (إذا كان)."
+        },
+        {
+            "id": "mcq_2",
+            "number": 2,
+            "title": "المقارنة والتساوي",
+            "question": "لو عايز أسأل في الشرط هل المتغير x بيساوي 5 بالظبط، بكتب إيه؟",
+            "hint": "علامة التساوي المزدوجة للمقارنة.",
+            "code_snippet": "if x == 5:",
+            "options": [
+                "==",
+                "=",
+                "++"
+            ],
+            "correct_index": 0,
+            "explanation": "علامة = الواحدة لوضع قيمة، أما == الاتنين للمقارنة والشرط."
+        }
+    ],
+    "fix_code_tasks": [
+        {
+            "id": "fix_1",
+            "number": 3,
+            "title": "صلح شرط إشارة المرور 🚦",
+            "instructions": "لو الإشارة green المفروض يطبع Go! بس الشرط مكتوب غلط. صلح السطر 2.",
+            "template_lines": [
+                {"line": 1, "code": "light = \"green\"", "locked": True},
+                {"line": 2, "code": "if light != \"green\":  # صلح هنا: المفروض لو بيساوي green!", "locked": False, "placeholder": "if light == \"green\":"},
+                {"line": 3, "code": "    print(\"Go!\")", "locked": True}
+            ],
+            "expected_output": "Go!",
+            "hint": "استخدم == للمقارنة بدل !=."
+        }
+    ],
+    "guided_project": {
+        "id": "guided_1",
+        "number": 4,
+        "title": "مشروع اختبار درجات الطالب 🎓",
+        "instructions": "امشِ مع الكومنتات واكتب شرط النجاح.",
+        "initial_code": "# 1. درجة الطالب = 85\ndegree = 85\n\n# 2. لو الدرجة أكبر من أو تساوي 50 اطبع Success\nif degree >= 50:\n    print(\"Success\")",
+        "expected_output": "Success",
+        "hint": "اتأكد من وجود النقطتين : بعد الشرط والمسافة البادئة."
+    },
+    "solo_challenge": {
+        "id": "solo_1",
+        "number": 5,
+        "title": "تحدي فحص كلمة السر 🔐",
+        "instructions": "عرف متغير password = \"1234\"، ولو بيساوي \"1234\" اطبع Welcome!",
+        "initial_code": "# اكتب كودك هنا لوحدك\npassword = \"1234\"\nif password == \"1234\":\n    print(\"Welcome!\")",
+        "expected_output_contains": ["Welcome!"],
+        "hint": "استخدم if password == \"1234\": ثم print(\"Welcome!\")"
+    }
+}
+
+with open(os.path.join(target_dir, "tasks_week_02.json"), "w", encoding="utf-8") as f:
+    json.dump(tasks_week_02, f, ensure_ascii=False, indent=2)
+
+print("Saved tasks.json and tasks_week_02.json successfully!")
