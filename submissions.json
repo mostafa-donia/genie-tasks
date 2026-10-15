@@ -400,13 +400,13 @@
         },
         "guided_1": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:٢٠:١٠ م",
-          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = 3\n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 4\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = 8\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif total_fuel>6\n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:٢٠:٣١ م",
+          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = 3\n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 4\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = 8\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif total_fuel>6:\n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
           "output": "Mission ready\nFind more fuel\n8",
           "is_correct": false
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:٢٠:١١ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:٢٠:٣٢ م"
     }
   }
 }
