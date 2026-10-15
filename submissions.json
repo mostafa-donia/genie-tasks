@@ -294,13 +294,13 @@
         },
         "mcq_9": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٣٣ ص",
-          "answer": 0,
-          "chosen_text": "temperature > 10",
-          "is_correct": false
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٣٥ ص",
+          "answer": 1,
+          "chosen_text": "temperature < 10",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٣٤ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٤٠ ص"
     }
   }
 }
