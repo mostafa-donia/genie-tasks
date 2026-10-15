@@ -1,7 +1,7 @@
 {
   "week_id": "week_02",
-  "reset_id": "1792053193252",
-  "last_reset": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٣:١٣ ص",
+  "reset_id": "1792053332108",
+  "last_reset": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٥:٣٢ ص",
   "active_tasks": {
     "week_id": "week_02",
     "week_number": 2,
@@ -233,21 +233,5 @@
       "hint": "ابدأ بـ energy = 20، وبعدها damage = int(input(...))، واحسب remaining = energy - damage. اختبر remaining باستخدام >= 10. اختبر البرنامج بأكثر من قيمة للضرر."
     }
   },
-  "students": {
-    "01080922432": {
-      "student_name": "محمد احمد",
-      "phone": "01080922432",
-      "week_id": "week_02",
-      "submissions": {
-        "mcq_1": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٣:٣٦ ص",
-          "answer": 1,
-          "chosen_text": "==",
-          "is_correct": true
-        }
-      },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٣:٤٣ ص"
-    }
-  }
+  "students": {}
 }
