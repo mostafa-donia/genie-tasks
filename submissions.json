@@ -411,13 +411,13 @@
         },
         "mcq_9": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٧:٠٨ م",
-          "answer": 2,
-          "chosen_text": "temperature = 10",
-          "is_correct": false
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٧:١٠ م",
+          "answer": 1,
+          "chosen_text": "temperature < 10",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٧:٠٩ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١٠:٤٧:١٠ م"
     }
   }
 }
