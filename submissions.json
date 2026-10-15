@@ -1,0 +1,9 @@
+{
+  "students": {
+    "01012345678": {
+      "student_name": "Ali",
+      "phone": "01012345678",
+      "submissions": {}
+    }
+  }
+}
