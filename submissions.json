@@ -1,92 +1,226 @@
 {
-  "students": {
-    "01012345678": {
-      "student_name": "Ali",
-      "phone": "01012345678",
-      "submissions": {}
-    },
-    "01099998888": {
-      "student_name": "Test Student",
-      "phone": "01099998888",
-      "last_active": "just now"
-    },
-    "01080922432": {
-      "student_name": "محمد احمد",
-      "phone": "01080922432",
-      "week_id": "week_01",
-      "submissions": {
-        "mcq_1": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:١٠:٠٣ ص",
-          "answer": 0,
-          "chosen_text": "مكان بنخزن جواه قيمة ونقدر نغير اللي جواه في أي وقت",
-          "is_correct": true
-        },
-        "mcq_2": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٤:١٦ ص",
-          "answer": 2,
-          "chosen_text": "بدون أي علامات خالص",
-          "is_correct": false
-        },
-        "mcq_3": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:١٠:١٥ ص",
-          "answer": 0,
-          "chosen_text": "int (رقم صحيح)",
-          "is_correct": true
-        },
-        "mcq_4": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:٠٣ ص"
-        },
-        "mcq_5": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:٠٤ ص"
-        },
-        "mcq_6": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:٠٥ ص"
-        },
-        "mcq_7": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:٠٦ ص"
-        },
-        "mcq_8": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:٠٨ ص",
-          "answer": 1,
-          "chosen_text": "عشان نطبع الاسم على الشاشة بسرعة",
-          "is_correct": false
-        },
-        "mcq_9": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:١٠ ص",
-          "answer": 2,
-          "chosen_text": "علامة الشباك (#)",
-          "is_correct": false
-        },
-        "mcq_10": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١٠:٣٥:١٥ ص",
-          "answer": 2,
-          "chosen_text": "40",
-          "is_correct": false
-        }
+  "week_id": "week_01",
+  "reset_id": "1792053178020",
+  "last_reset": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٢:٥٨ ص",
+  "active_tasks": {
+    "week_id": "week_01",
+    "week_number": 1,
+    "week_title": "الواجب الأسبوعي 01 🐍",
+    "topic_ar": "تحديات بايثون الأسبوعية للأبطال",
+    "topic_en": "Python Weekly Tasks for Kids",
+    "target_age": "8-12 سنة",
+    "mcq_questions": [
+      {
+        "id": "mcq_1",
+        "number": 1,
+        "question": "الخزان (Variable) بنستخدمه في البرمجة عشان إيه؟",
+        "hint": "زي العلبة أو الدرج اللي بنحط جواه لعبتنا ونقدر نغيرها بعدين.",
+        "code_snippet": "cup = \"tea\"",
+        "options": [
+          "مكان بنخزن جواه قيمة ونقدر نغير اللي جواه في أي وقت",
+          "زرار بنقفله عشان نطفي الكمبيوتر خالص",
+          "شاشة العرض بتاعة اللاب توب"
+        ],
+        "correct_index": 0,
+        "explanation": "صح يا بطل! المتغير هو مكان بنخزن فيه حاجة زي اسم أو رقم، ونقدر نغير قيمته في أي وقت."
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:١٠:١٦ ص"
-    },
-    "100020003000": {
-      "student_name": "مستر مصطفي",
-      "phone": "100020003000",
-      "week_id": "week_02",
-      "submissions": {
-        "mcq_1": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٢٦:١٣ ص"
-        }
+      {
+        "id": "mcq_2",
+        "number": 2,
+        "question": "في بايثون، أي كلام بيتكتب بين إيه؟",
+        "hint": "زي كلمة \"Ali\" أو \"Hello\".",
+        "code_snippet": "name = \"Ali\"",
+        "options": [
+          "بين علامتي تنصيص \" \"",
+          "بين أقواس مربعة [ ]",
+          "بدون أي علامات خالص"
+        ],
+        "correct_index": 0,
+        "explanation": "شاطر جداً! النصوص والكلام في بايثون لازم نكتبها بين علامتي تنصيص \" \"."
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٢٦:١٤ ص"
+      {
+        "id": "mcq_3",
+        "number": 3,
+        "question": "لو عايز أسجل عمر الطالب 8 سنوات، نوع الرقم ده إيه؟",
+        "hint": "رقم سليم مفيش فيه نقطة أو فواصل.",
+        "code_snippet": "age = 8",
+        "options": [
+          "int (رقم صحيح)",
+          "String (كلام)",
+          "float (رقم عشري)"
+        ],
+        "correct_index": 0,
+        "explanation": "ممتاز! 8 هو رقم صحيح بدون فواصل عشرية، فاسمه int."
+      },
+      {
+        "id": "mcq_4",
+        "number": 4,
+        "question": "طول الطالب 1.35 متر، نوع الرقم ده إيه في بايثون؟",
+        "hint": "فيه نقطة عشرية (Point).",
+        "code_snippet": "height = 1.35",
+        "options": [
+          "float (رقم عشري فيه بوينت)",
+          "int (رقم صحيح)",
+          "input (إدخال)"
+        ],
+        "correct_index": 0,
+        "explanation": "برافو! أي رقم فيه نقطة عشرية زي 1.35 أو 2.5 بيسمى float."
+      },
+      {
+        "id": "mcq_5",
+        "number": 5,
+        "question": "بص للكود ده كويس، السطر التاني هيطبع إيه على الشاشة؟",
+        "hint": "ركز: هل كلمة name بين علامتي تنصيص؟ لأ، دي اسم الخزان!",
+        "code_snippet": "name = \"Ali\"\nprint(name)",
+        "options": [
+          "هيطبع: Ali (القيمة اللي جوه الخزان)",
+          "هيطبع كلمة: name بالحروف",
+          "مش هيطبع أي حاجة وهيطلع غلط"
+        ],
+        "correct_index": 0,
+        "explanation": "تركيزك عالي! بما إن مفيش علامات تنصيص، بايثون هيروح يفتح الخزان name ويطبع اللي جواه وهو Ali."
+      },
+      {
+        "id": "mcq_6",
+        "number": 6,
+        "question": "في السطر ده: print(f\"Hello {name}\") الأقواس {} وظيفتها إيه؟",
+        "hint": "بتحجز مكان لحاجة جوة الرسالة.",
+        "code_snippet": "name = \"Ali\"\nprint(f\"Hello {name}\")",
+        "options": [
+          "مكان بنحط جواه اسم الخزان عشان يطبع قيمته",
+          "شكل جمالي بس وموش فايدة",
+          "عشان نقفل البرنامج بعد ما يخلص"
+        ],
+        "correct_index": 0,
+        "explanation": "صح يا نجم! القوسين {} في f-string هما المكان المخصص اللي بايثون بيحط فيه قيمة الخزان."
+      },
+      {
+        "id": "mcq_7",
+        "number": 7,
+        "question": "لو عايز أطلب من المستخدم يكتب اسمه من الكيبورد، هستخدم دالة إيه؟",
+        "hint": "كلمة إنجليزية معناها (إدخال).",
+        "code_snippet": "name = input(\"Enter your name: \")",
+        "options": [
+          "input()",
+          "print()",
+          "int()"
+        ],
+        "correct_index": 0,
+        "explanation": "تمام يا بطل! دالة input() بتوقف البرنامج وتستنى المستخدم يكتب من الكيبورد."
+      },
+      {
+        "id": "mcq_8",
+        "number": 8,
+        "question": "ليه كتبنا int() برة input() في السطر ده؟",
+        "hint": "input() لوحدها بتدخل كلام، واحنا عايزين نعمل حسابات برقم صحيح!",
+        "code_snippet": "age = int(input(\"Enter your age: \"))",
+        "options": [
+          "عشان نحول اللي المستخدم هيكتبه من كلام إلى رقم صحيح نقدر نحسب بيه",
+          "عشان نطبع الاسم على الشاشة بسرعة",
+          "عشان نحذف الإجابة القديمة"
+        ],
+        "correct_index": 0,
+        "explanation": "أحسنت! لو مستخدم كتب 8 في input عادية بتدخل كـ \"8\" كلام، فـ int() بتحولها لرقم حقيقي 8."
+      },
+      {
+        "id": "mcq_9",
+        "number": 9,
+        "question": "علامة الضرب في لغة بايثون بتتكتب إزاي؟",
+        "hint": "شكلها نجمة مش حرف x.",
+        "code_snippet": "total = 5 * 3",
+        "options": [
+          "علامة النجمة (*)",
+          "حرف الإكس (x)",
+          "علامة الشباك (#)"
+        ],
+        "correct_index": 0,
+        "explanation": "شاطر جداً! في البرمجة كلها علامة الضرب هي النجمة (*) و 5 * 3 = 15."
+      },
+      {
+        "id": "mcq_10",
+        "number": 10,
+        "question": "ما نتيجة تشغيل هذا الكود؟",
+        "hint": "معاك 10 وصرفت منهم 4، فاضل معاك كام؟",
+        "code_snippet": "wallet = 10\nspent = 4\nresult = wallet - spent\nprint(result)",
+        "options": [
+          "6",
+          "14",
+          "40"
+        ],
+        "correct_index": 0,
+        "explanation": "برافو عليك! 10 - 4 = 6، والكود هيطبع 6 على الشاشة."
+      }
+    ],
+    "fix_code_tasks": [
+      {
+        "id": "fix_1",
+        "number": 11,
+        "instructions": "الكود ده المفروض يجمع المصروف (20) على الهدية (10) ويطبع 30، بس اللي كتبه غلط وعمل طرح! صلح السطر رقم 3 عشان يطبع 30.",
+        "template_lines": [
+          {
+            "line": 1,
+            "code": "wallet = 20",
+            "locked": true
+          },
+          {
+            "line": 2,
+            "code": "gift = 10",
+            "locked": true
+          },
+          {
+            "line": 3,
+            "code": "total = wallet - gift  # صلح هنا: المفروض نجمع!",
+            "locked": false,
+            "initial_val": "total = wallet - gift"
+          },
+          {
+            "line": 4,
+            "code": "print(total)",
+            "locked": true
+          }
+        ],
+        "expected_output": "30",
+        "hint": "شيل علامة الطرح (-) وحط علامة الجمع (+) في السطر التالت."
+      },
+      {
+        "id": "fix_2",
+        "number": 12,
+        "instructions": "الكود المفروض يطبع Hello Ali بس بايثون طبع كلمة name بالحروف! صلح السطر 2 باستخدام f-string عشان يطبع Hello Ali بالظبط.",
+        "template_lines": [
+          {
+            "line": 1,
+            "code": "name = \"Ali\"",
+            "locked": true
+          },
+          {
+            "line": 2,
+            "code": "print(\"Hello name\")  # صلح هنا",
+            "locked": false,
+            "initial_val": "print(\"Hello name\")"
+          }
+        ],
+        "expected_output": "Hello Ali",
+        "hint": "استخدم f-string وحط حرف f قبل التنصيص واسم الخزان بين {name}."
+      }
+    ],
+    "guided_project": {
+      "id": "guided_1",
+      "number": 13,
+      "instructions": "امشِ مع التعليقات اللي بالعربي واكتب تحت كل خطوة الكود المطلوب لحساب تمن 4 بيتزات وسعر الواحدة 50 جنيه.",
+      "initial_code": "# 1. عرف خزان لعدد البيتزا واكتب فيه 4\npizzas = \n\n# 2. عرف خزان لسعر البيتزا الواحدة واكتب فيه 50\nprice = \n\n# 3. احسب الإجمالي: اضرب عدد البيتزا في السعر (علامة *)\ntotal = \n\n# 4. اطبع الناتج النهائي للخزان total\nprint(total)",
+      "expected_output": "200",
+      "hint": "اكتب 4 جنب pizzas و 50 جنب price واضربهم في بعض total = pizzas * price."
+    },
+    "solo_challenge": {
+      "id": "solo_1",
+      "number": 14,
+      "instructions": "اكتب برنامج بالكامل من الصفر لوحدك بدون أي مساعدة!\nعندك 15 قطعة كاندي (candies = 15)، وعايز توزعهم بالتساوي على 3 أطفال (kids = 3). احسب نصيب كل طفل واطبع الناتج على الشاشة.",
+      "initial_code": "# اكتب برنامجك بالكامل من الصفر هنا يا بطل لوحدك!\n",
+      "expected_output_contains": [
+        "5"
+      ],
+      "hint": "عرف متغير candies = 15 ومتغير kids = 3 واقسمهم candies // kids واطبع الناتج print()."
     }
-  }
+  },
+  "students": {}
 }
