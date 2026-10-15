@@ -270,9 +270,23 @@
           "answer": 0,
           "chosen_text": "10",
           "is_correct": true
+        },
+        "mcq_6": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٠٥ ص",
+          "answer": 1,
+          "chosen_text": "Recharge",
+          "is_correct": true
+        },
+        "mcq_7": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٣ ص",
+          "answer": 1,
+          "chosen_text": "print(f\"You have {gems}\")",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٠٧ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٤ ص"
     }
   }
 }
