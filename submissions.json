@@ -358,13 +358,20 @@
         },
         "mcq_7": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٢٧ م",
-          "answer": 0,
-          "chosen_text": "print(\"You have {gems}\")",
-          "is_correct": false
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٢٩ م",
+          "answer": 1,
+          "chosen_text": "print(f\"You have {gems}\")",
+          "is_correct": true
+        },
+        "mcq_8": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٤٧ م",
+          "answer": 1,
+          "chosen_text": "keys = int(input(\"Keys: \"))",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٣٠ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٧:٤٨ م"
     }
   }
 }
