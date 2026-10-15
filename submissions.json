@@ -348,9 +348,16 @@
           "answer": 0,
           "chosen_text": "10",
           "is_correct": true
+        },
+        "mcq_6": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٦:١٦:٥٧ م",
+          "answer": 1,
+          "chosen_text": "Recharge",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٦:٣٨ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٦:١٦:٥٨ م"
     }
   }
 }
