@@ -305,9 +305,23 @@
           "answer": 1,
           "chosen_text": "9",
           "is_correct": true
+        },
+        "fix_1": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٨:٣٠ ص",
+          "code": "if gold>=8:",
+          "output": "Treasure open\nKeep collecting",
+          "is_correct": false
+        },
+        "fix_2": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٨:٥٢ ص",
+          "code": "print(f\"Robot has {battery} batteries\")",
+          "output": "Robot has 6 batteries",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٨:٣١ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٨:٥٣ ص"
     }
   }
 }
