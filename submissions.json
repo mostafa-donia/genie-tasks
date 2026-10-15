@@ -239,75 +239,15 @@
       "phone": "01080922432",
       "week_id": "week_02",
       "submissions": {
-        "mcq_1": {
+        "guided_1": {
           "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٠١ ص",
-          "answer": 1,
-          "chosen_text": "==",
-          "is_correct": true
-        },
-        "mcq_2": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:١٠ ص"
-        },
-        "mcq_3": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٢١ ص",
-          "answer": 0,
-          "chosen_text": "hearts = 3",
-          "is_correct": true
-        },
-        "mcq_4": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٣٥ ص",
-          "answer": 1,
-          "chosen_text": "input",
-          "is_correct": true
-        },
-        "mcq_5": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٥٦ ص",
-          "answer": 0,
-          "chosen_text": "10",
-          "is_correct": true
-        },
-        "mcq_6": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٠٥ ص",
-          "answer": 1,
-          "chosen_text": "Recharge",
-          "is_correct": true
-        },
-        "mcq_7": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٣ ص",
-          "answer": 1,
-          "chosen_text": "print(f\"You have {gems}\")",
-          "is_correct": true
-        },
-        "mcq_8": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٢٨ ص",
-          "answer": 1,
-          "chosen_text": "keys = int(input(\"Keys: \"))",
-          "is_correct": true
-        },
-        "mcq_9": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٣٥ ص",
-          "answer": 1,
-          "chosen_text": "temperature < 10",
-          "is_correct": true
-        },
-        "mcq_10": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٧:٤٦ ص",
-          "answer": 1,
-          "chosen_text": "9",
-          "is_correct": true
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٧:٣٨:٢٠ م",
+          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = \n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 4\n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = 3+extra_fuel\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif total_fuel >=7:\n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
+          "output": "Mission ready\nFind more fuel\n7",
+          "is_correct": false
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٧:٣٧:٤٢ م"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٧:٣٨:٢٦ م"
     },
     "151311151315": {
       "student_name": "..",
