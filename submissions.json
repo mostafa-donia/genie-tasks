@@ -1,225 +1,236 @@
 {
-  "week_id": "week_01",
-  "reset_id": "1792053185057",
-  "last_reset": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٣:٠٥ ص",
+  "week_id": "week_02",
+  "reset_id": "1792053193252",
+  "last_reset": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٣:١٣ ص",
   "active_tasks": {
-    "week_id": "week_01",
-    "week_number": 1,
-    "week_title": "الواجب الأسبوعي 01 🐍",
-    "topic_ar": "تحديات بايثون الأسبوعية للأبطال",
-    "topic_en": "Python Weekly Tasks for Kids",
-    "target_age": "8-12 سنة",
+    "week_id": "week_02",
+    "week_number": 2,
+    "week_title": "مهمة إنقاذ عالم الألعاب 🎮",
+    "topic_ar": "مغامرة بايثون: الشروط وقرارات الأبطال",
+    "topic_en": "Python Adventure: If & Else",
+    "target_age": "9 سنوات",
     "mcq_questions": [
       {
         "id": "mcq_1",
         "number": 1,
-        "question": "الخزان (Variable) بنستخدمه في البرمجة عشان إيه؟",
-        "hint": "زي العلبة أو الدرج اللي بنحط جواه لعبتنا ونقدر نغيرها بعدين.",
-        "code_snippet": "cup = \"tea\"",
+        "question": "البوابة السحرية بتفتح لو عدد النجوم 5 بالظبط. أنهي شرط بيسأل هل stars بتساوي 5؟",
+        "hint": "إحنا بنقارن قيمتين، مش بنحط قيمة جديدة في متغير.",
+        "code_snippet": "stars = 5\nif stars ___ 5:\n    print(\"Portal open\")",
         "options": [
-          "مكان بنخزن جواه قيمة ونقدر نغير اللي جواه في أي وقت",
-          "زرار بنقفله عشان نطفي الكمبيوتر خالص",
-          "شاشة العرض بتاعة اللاب توب"
+          "=",
+          "==",
+          "*"
         ],
-        "correct_index": 0,
-        "explanation": "صح يا بطل! المتغير هو مكان بنخزن فيه حاجة زي اسم أو رقم، ونقدر نغير قيمته في أي وقت."
+        "correct_index": 1,
+        "explanation": "بطل! علامة == بتقارن بين قيمتين وبتسأل هل هما متساويين. علامة = بنستخدمها عشان نخزن قيمة في متغير."
       },
       {
         "id": "mcq_2",
         "number": 2,
-        "question": "في بايثون، أي كلام بيتكتب بين إيه؟",
-        "hint": "زي كلمة \"Ali\" أو \"Hello\".",
-        "code_snippet": "name = \"Ali\"",
+        "question": "روبوت جمع 8 بطاريات. الكود هيعرض إيه؟",
+        "hint": "هل 8 أكبر من 6؟",
+        "code_snippet": "batteries = 8\nif batteries > 6:\n    print(\"Robot powered\")\nelse:\n    print(\"Find batteries\")",
         "options": [
-          "بين علامتي تنصيص \" \"",
-          "بين أقواس مربعة [ ]",
-          "بدون أي علامات خالص"
+          "Find batteries",
+          "Robot powered",
+          "8"
         ],
-        "correct_index": 0,
-        "explanation": "شاطر جداً! النصوص والكلام في بايثون لازم نكتبها بين علامتي تنصيص \" \"."
+        "correct_index": 1,
+        "explanation": "ممتاز! لأن 8 أكبر من 6، الشرط صح، فبايثون ينفذ أمر if ويطبع Robot powered."
       },
       {
         "id": "mcq_3",
         "number": 3,
-        "question": "لو عايز أسجل عمر الطالب 8 سنوات، نوع الرقم ده إيه؟",
-        "hint": "رقم سليم مفيش فيه نقطة أو فواصل.",
-        "code_snippet": "age = 8",
+        "question": "عايزين نخزن عدد القلوب اللي مع اللاعب، وهو 3 قلوب. أنهي سطر مناسب؟",
+        "hint": "عدد القلوب رقم صحيح من غير نقطة عشرية.",
+        "code_snippet": "",
         "options": [
-          "int (رقم صحيح)",
-          "String (كلام)",
-          "float (رقم عشري)"
+          "hearts = 3",
+          "hearts = \"three\"",
+          "hearts = 3.5"
         ],
         "correct_index": 0,
-        "explanation": "ممتاز! 8 هو رقم صحيح بدون فواصل عشرية، فاسمه int."
+        "explanation": "صح! hearts = 3 بيخزن رقم صحيح int، وده مناسب لعدد القلوب."
       },
       {
         "id": "mcq_4",
         "number": 4,
-        "question": "طول الطالب 1.35 متر، نوع الرقم ده إيه في بايثون؟",
-        "hint": "فيه نقطة عشرية (Point).",
-        "code_snippet": "height = 1.35",
+        "question": "اللاعب كتب اسمه من الكيبورد. أنهي دالة بنستخدمها عشان نستقبل اللي كتبه؟",
+        "hint": "اسمها معناه إدخال.",
+        "code_snippet": "player = _____(\"Enter your name: \")",
         "options": [
-          "float (رقم عشري فيه بوينت)",
-          "int (رقم صحيح)",
-          "input (إدخال)"
+          "print",
+          "input",
+          "int"
         ],
-        "correct_index": 0,
-        "explanation": "برافو! أي رقم فيه نقطة عشرية زي 1.35 أو 2.5 بيسمى float."
+        "correct_index": 1,
+        "explanation": "شاطر! input() بتستنى المستخدم يكتب قيمة، وبترجعها كنص string."
       },
       {
         "id": "mcq_5",
         "number": 5,
-        "question": "بص للكود ده كويس، السطر التاني هيطبع إيه على الشاشة؟",
-        "hint": "ركز: هل كلمة name بين علامتي تنصيص؟ لأ، دي اسم الخزان!",
-        "code_snippet": "name = \"Ali\"\nprint(name)",
+        "question": "الكود ده بيحسب نقاط اللاعب. إيه الناتج؟",
+        "hint": "اضرب الأول، وبعدها اجمع.",
+        "code_snippet": "coins = 4\nbonus = 3\nscore = coins + bonus * 2\nprint(score)",
         "options": [
-          "هيطبع: Ali (القيمة اللي جوه الخزان)",
-          "هيطبع كلمة: name بالحروف",
-          "مش هيطبع أي حاجة وهيطلع غلط"
+          "10",
+          "11",
+          "14"
         ],
         "correct_index": 0,
-        "explanation": "تركيزك عالي! بما إن مفيش علامات تنصيص، بايثون هيروح يفتح الخزان name ويطبع اللي جواه وهو Ali."
+        "explanation": "تمام! الأول 3 * 2 = 6، وبعدها 4 + 6 = 10. إذن الناتج الصحيح 10.",
+        "corrected_options": [
+          "10",
+          "11",
+          "14"
+        ],
+        "corrected_correct_index": 0
       },
       {
         "id": "mcq_6",
         "number": 6,
-        "question": "في السطر ده: print(f\"Hello {name}\") الأقواس {} وظيفتها إيه؟",
-        "hint": "بتحجز مكان لحاجة جوة الرسالة.",
-        "code_snippet": "name = \"Ali\"\nprint(f\"Hello {name}\")",
+        "question": "اللاعب عنده طاقة 2، والكود بيقول لو الطاقة أكبر من 4 اعرض Ready، غير كده اعرض Recharge. إيه اللي هيظهر؟",
+        "hint": "2 أكبر من 4 ولا لأ؟",
+        "code_snippet": "energy = 2\nif energy > 4:\n    print(\"Ready\")\nelse:\n    print(\"Recharge\")",
         "options": [
-          "مكان بنحط جواه اسم الخزان عشان يطبع قيمته",
-          "شكل جمالي بس وموش فايدة",
-          "عشان نقفل البرنامج بعد ما يخلص"
+          "Ready",
+          "Recharge",
+          "2"
         ],
-        "correct_index": 0,
-        "explanation": "صح يا نجم! القوسين {} في f-string هما المكان المخصص اللي بايثون بيحط فيه قيمة الخزان."
+        "correct_index": 1,
+        "explanation": "صح! الشرط غلط لأن 2 مش أكبر من 4، عشان كده بايثون بينفذ else ويطبع Recharge."
       },
       {
         "id": "mcq_7",
         "number": 7,
-        "question": "لو عايز أطلب من المستخدم يكتب اسمه من الكيبورد، هستخدم دالة إيه؟",
-        "hint": "كلمة إنجليزية معناها (إدخال).",
-        "code_snippet": "name = input(\"Enter your name: \")",
+        "question": "عايزين نعرض رسالة فيها عدد الجواهر الموجود في المتغير gems. أنهي سطر صح؟",
+        "hint": "استخدم f قبل النص، وحط اسم المتغير بين أقواس معقوفة.",
+        "code_snippet": "gems = 12",
         "options": [
-          "input()",
-          "print()",
-          "int()"
+          "print(\"You have {gems}\")",
+          "print(f\"You have {gems}\")",
+          "print(f\"You have gems\")"
         ],
-        "correct_index": 0,
-        "explanation": "تمام يا بطل! دالة input() بتوقف البرنامج وتستنى المستخدم يكتب من الكيبورد."
+        "correct_index": 1,
+        "explanation": "برافو! f-string مع {gems} بتعرض قيمة المتغير، فالناتج هيكون You have 12."
       },
       {
         "id": "mcq_8",
         "number": 8,
-        "question": "ليه كتبنا int() برة input() في السطر ده؟",
-        "hint": "input() لوحدها بتدخل كلام، واحنا عايزين نعمل حسابات برقم صحيح!",
-        "code_snippet": "age = int(input(\"Enter your age: \"))",
+        "question": "عايزين نطلب من اللاعب عدد المفاتيح ونستخدمه في الحساب. أنهي سطر بيحوّل الإدخال لرقم صحيح؟",
+        "hint": "input لوحدها بترجع نص، وإحنا محتاجين int.",
+        "code_snippet": "",
         "options": [
-          "عشان نحول اللي المستخدم هيكتبه من كلام إلى رقم صحيح نقدر نحسب بيه",
-          "عشان نطبع الاسم على الشاشة بسرعة",
-          "عشان نحذف الإجابة القديمة"
+          "keys = input(\"Keys: \")",
+          "keys = int(input(\"Keys: \"))",
+          "keys = print(\"Keys: \")"
         ],
-        "correct_index": 0,
-        "explanation": "أحسنت! لو مستخدم كتب 8 في input عادية بتدخل كـ \"8\" كلام، فـ int() بتحولها لرقم حقيقي 8."
+        "correct_index": 1,
+        "explanation": "مظبوط! int(input(...)) بتستقبل اللي اللاعب كتبه وتحاول تحوله لرقم صحيح نقدر نستخدمه في الحسابات."
       },
       {
         "id": "mcq_9",
         "number": 9,
-        "question": "علامة الضرب في لغة بايثون بتتكتب إزاي؟",
-        "hint": "شكلها نجمة مش حرف x.",
-        "code_snippet": "total = 5 * 3",
+        "question": "بوابة الجليد بتسمح بالمرور لو الحرارة أقل من 10. أنهي شرط مناسب؟",
+        "hint": "أقل من بنكتبها بعلامة أصغر من.",
+        "code_snippet": "temperature = 7\nif _____:\n    print(\"Pass\")",
         "options": [
-          "علامة النجمة (*)",
-          "حرف الإكس (x)",
-          "علامة الشباك (#)"
+          "temperature > 10",
+          "temperature < 10",
+          "temperature = 10"
         ],
-        "correct_index": 0,
-        "explanation": "شاطر جداً! في البرمجة كلها علامة الضرب هي النجمة (*) و 5 * 3 = 15."
+        "correct_index": 1,
+        "explanation": "رائع! علامة < معناها أصغر من، فـ temperature < 10 هو الشرط المطلوب."
       },
       {
         "id": "mcq_10",
         "number": 10,
-        "question": "ما نتيجة تشغيل هذا الكود؟",
-        "hint": "معاك 10 وصرفت منهم 4، فاضل معاك كام؟",
-        "code_snippet": "wallet = 10\nspent = 4\nresult = wallet - spent\nprint(result)",
+        "question": "معاك 15 عملة واشتريت خريطة بـ 6 عملات. الكود هيطبع كام؟",
+        "hint": "استخدم الطرح عشان تعرف اللي فاضل.",
+        "code_snippet": "coins = 15\nmap_price = 6\nleft = coins - map_price\nprint(left)",
         "options": [
-          "6",
-          "14",
-          "40"
+          "21",
+          "9",
+          "90"
         ],
-        "correct_index": 0,
-        "explanation": "برافو عليك! 10 - 4 = 6، والكود هيطبع 6 على الشاشة."
+        "correct_index": 1,
+        "explanation": "أحسنت! 15 - 6 = 9 عملات، وده اللي هيظهر على الشاشة."
       }
     ],
     "fix_code_tasks": [
       {
         "id": "fix_1",
         "number": 11,
-        "instructions": "الكود ده المفروض يجمع المصروف (20) على الهدية (10) ويطبع 30، بس اللي كتبه غلط وعمل طرح! صلح السطر رقم 3 عشان يطبع 30.",
+        "instructions": "التنين الصغير عنده 9 قطع ذهب. المفروض الباب يفتح لو معاه 8 قطع أو أكتر، لكن الشرط مكتوب غلط. صلّح سطر if.",
         "template_lines": [
           {
             "line": 1,
-            "code": "wallet = 20",
+            "code": "gold = 9",
             "locked": true
           },
           {
             "line": 2,
-            "code": "gift = 10",
-            "locked": true
+            "code": "if gold = 8:",
+            "locked": false,
+            "initial_val": "if gold = 8:"
           },
           {
             "line": 3,
-            "code": "total = wallet - gift  # صلح هنا: المفروض نجمع!",
-            "locked": false,
-            "initial_val": "total = wallet - gift"
+            "code": "    print(\"Treasure open\")",
+            "locked": true
           },
           {
             "line": 4,
-            "code": "print(total)",
+            "code": "else:",
+            "locked": true
+          },
+          {
+            "line": 5,
+            "code": "    print(\"Keep collecting\")",
             "locked": true
           }
         ],
-        "expected_output": "30",
-        "hint": "شيل علامة الطرح (-) وحط علامة الجمع (+) في السطر التالت."
+        "expected_output": "Treasure open",
+        "hint": "محتاجين شرط معناه 8 أو أكتر. استخدم مقارنة مناسبة بدل علامة =."
       },
       {
         "id": "fix_2",
         "number": 12,
-        "instructions": "الكود المفروض يطبع Hello Ali بس بايثون طبع كلمة name بالحروف! صلح السطر 2 باستخدام f-string عشان يطبع Hello Ali بالظبط.",
+        "instructions": "الروبوت معاه 6 بطاريات، لكن الرسالة بتعرض كلمة battery بدل الرقم الموجود في المتغير. صلّح سطر الطباعة باستخدام f-string.",
         "template_lines": [
           {
             "line": 1,
-            "code": "name = \"Ali\"",
+            "code": "battery = 6",
             "locked": true
           },
           {
             "line": 2,
-            "code": "print(\"Hello name\")  # صلح هنا",
+            "code": "print(\"Robot has {battery} batteries\")",
             "locked": false,
-            "initial_val": "print(\"Hello name\")"
+            "initial_val": "print(\"Robot has {battery} batteries\")"
           }
         ],
-        "expected_output": "Hello Ali",
-        "hint": "استخدم f-string وحط حرف f قبل التنصيص واسم الخزان بين {name}."
+        "expected_output": "Robot has 6 batteries",
+        "hint": "حط حرف f قبل أول علامة تنصيص، وسيب اسم المتغير بين { }."
       }
     ],
     "guided_project": {
       "id": "guided_1",
       "number": 13,
-      "instructions": "امشِ مع التعليقات اللي بالعربي واكتب تحت كل خطوة الكود المطلوب لحساب تمن 4 بيتزات وسعر الواحدة 50 جنيه.",
-      "initial_code": "# 1. عرف خزان لعدد البيتزا واكتب فيه 4\npizzas = \n\n# 2. عرف خزان لسعر البيتزا الواحدة واكتب فيه 50\nprice = \n\n# 3. احسب الإجمالي: اضرب عدد البيتزا في السعر (علامة *)\ntotal = \n\n# 4. اطبع الناتج النهائي للخزان total\nprint(total)",
-      "expected_output": "200",
-      "hint": "اكتب 4 جنب pizzas و 50 جنب price واضربهم في بعض total = pizzas * price."
+      "instructions": "ساعد رائد الفضاء يجمع وقود كفاية عشان يرجع للمحطة! عنده 3 وحدات وقود، وهيجمع 4 وحدات إضافية. كمّل الكود عشان يحسب الوقود الكلي. لو الوقود 7 أو أكتر اطبع Mission ready، غير كده اطبع Find more fuel.",
+      "initial_code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = \n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = \n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = \n\n# 4. لو الوقود الكلي 7 أو أكتر\nif \n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
+      "expected_output": "Mission ready\n7",
+      "hint": "اكتب fuel = 3 و extra_fuel = 4، واجمعهم. بعد كده اختبر total_fuel باستخدام >= 7."
     },
     "solo_challenge": {
       "id": "solo_1",
       "number": 14,
-      "instructions": "اكتب برنامج بالكامل من الصفر لوحدك بدون أي مساعدة!\nعندك 15 قطعة كاندي (candies = 15)، وعايز توزعهم بالتساوي على 3 أطفال (kids = 3). احسب نصيب كل طفل واطبع الناتج على الشاشة.",
-      "initial_code": "# اكتب برنامجك بالكامل من الصفر هنا يا بطل لوحدك!\n",
+      "instructions": "التحدي الأخير! اكتب برنامج من الصفر لشخصية لعبة عندها 20 نقطة طاقة. اسأل اللاعب عن الضرر اللي أخدته، وحوّل الإجابة لرقم صحيح، واطرح الضرر من الطاقة. لو الطاقة المتبقية 10 أو أكتر اطبع \"Still strong!\"، غير كده اطبع \"Need a potion!\". وفي النهاية اطبع الطاقة المتبقية باستخدام f-string.",
+      "initial_code": "# اكتب برنامجك من الصفر هنا!\n",
       "expected_output_contains": [
-        "5"
+        "Need a potion!"
       ],
-      "hint": "عرف متغير candies = 15 ومتغير kids = 3 واقسمهم candies // kids واطبع الناتج print()."
+      "hint": "ابدأ بـ energy = 20، وبعدها damage = int(input(...))، واحسب remaining = energy - damage. اختبر remaining باستخدام >= 10. اختبر البرنامج بأكثر من قيمة للضرر."
     }
   },
   "students": {}
