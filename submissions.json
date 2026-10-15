@@ -240,11 +240,14 @@
       "week_id": "week_02",
       "submissions": {
         "mcq_1": {
-          "status": "skipped",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٥:٥٧ ص"
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٠١ ص",
+          "answer": 1,
+          "chosen_text": "==",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٥:٥٩ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٠٢ ص"
     }
   }
 }
