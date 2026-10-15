@@ -249,9 +249,16 @@
         "mcq_2": {
           "status": "skipped",
           "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:١٠ ص"
+        },
+        "mcq_3": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٢١ ص",
+          "answer": 0,
+          "chosen_text": "hearts = 3",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:١٩ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٢٥ ص"
     }
   }
 }
