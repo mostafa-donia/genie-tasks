@@ -245,9 +245,16 @@
           "answer": 1,
           "chosen_text": "==",
           "is_correct": true
+        },
+        "mcq_2": {
+          "status": "solved",
+          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٠٩ ص",
+          "answer": 1,
+          "chosen_text": "Robot powered",
+          "is_correct": true
         }
       },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٠٧ ص"
+      "last_active": "١٥‏/١٠‏/٢٠٢٦، ١١:٣٦:٠٩ ص"
     }
   }
 }
