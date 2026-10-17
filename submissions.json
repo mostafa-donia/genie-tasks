@@ -412,11 +412,8 @@
           "is_correct": true
         },
         "mcq_3": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٣٧ م",
-          "answer": 0,
-          "chosen_text": "hearts = 3",
-          "is_correct": true
+          "status": "skipped",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٧ م"
         },
         "mcq_4": {
           "status": "solved",
@@ -472,7 +469,7 @@
           "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٦ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٧ م"
     }
   }
 }
