@@ -394,9 +394,16 @@
           "answer": 1,
           "chosen_text": "Recharge",
           "is_correct": true
+        },
+        "mcq_7": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:٥٩ م",
+          "answer": 1,
+          "chosen_text": "print(f\"You have {gems}\")",
+          "is_correct": true
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:٤٥ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٠:٠٠ م"
     },
     "01036882295": {
       "student_name": "Ziad",
