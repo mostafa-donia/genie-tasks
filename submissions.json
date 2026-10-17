@@ -406,13 +406,13 @@
         },
         "mcq_2": {
           "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٢٠ م",
-          "answer": 2,
-          "chosen_text": "8",
-          "is_correct": false
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٢٢ م",
+          "answer": 1,
+          "chosen_text": "Robot powered",
+          "is_correct": true
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٢١ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٢٣ م"
     }
   }
 }
