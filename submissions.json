@@ -353,106 +353,15 @@
       "phone": "01027324456",
       "week_id": "week_02",
       "submissions": {
-        "mcq_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٨:٤٣ م",
-          "answer": 1,
-          "chosen_text": "==",
-          "is_correct": true
-        },
-        "mcq_2": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٨:٥٢ م",
-          "answer": 1,
-          "chosen_text": "Robot powered",
-          "is_correct": true
-        },
-        "mcq_3": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:٠٦ م",
-          "answer": 0,
-          "chosen_text": "hearts = 3",
-          "is_correct": true
-        },
-        "mcq_4": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:١٦ م",
-          "answer": 1,
-          "chosen_text": "input",
-          "is_correct": true
-        },
-        "mcq_5": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:٢٩ م",
-          "answer": 0,
-          "chosen_text": "10",
-          "is_correct": true
-        },
-        "mcq_6": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:٤٤ م",
-          "answer": 1,
-          "chosen_text": "Recharge",
-          "is_correct": true
-        },
-        "mcq_7": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٢٩:٥٩ م",
-          "answer": 1,
-          "chosen_text": "print(f\"You have {gems}\")",
-          "is_correct": true
-        },
-        "mcq_8": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣١:٠٨ م",
-          "answer": 1,
-          "chosen_text": "keys = int(input(\"Keys: \"))",
-          "is_correct": true
-        },
-        "mcq_9": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣١:٤١ م",
-          "answer": 1,
-          "chosen_text": "temperature < 10",
-          "is_correct": true
-        },
-        "mcq_10": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٢:١٩ م",
-          "answer": 1,
-          "chosen_text": "9",
-          "is_correct": true
-        },
-        "fix_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٣:١٩ م",
-          "code": "if gold = = 8:",
-          "output": "Treasure open\nKeep collecting",
-          "is_correct": false
-        },
-        "fix_2": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٤:١٥ م",
-          "code": "print(f\"Robot has {battery} batteries\")",
-          "output": "Robot has 6 batteries",
-          "is_correct": true
-        },
-        "guided_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٥:١٨ م",
-          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = 200\n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 30\n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = 230\n\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif \n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
-          "output": "Mission ready\nFind more fuel\n230",
-          "is_correct": false
-        },
         "solo_1": {
           "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٥:٢٩ م",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٦:٠٦ م",
           "code": "# اكتب برنامجك من الصفر هنا!\n",
           "output": "",
           "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٥:٣٠ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٣٦:٠٦ م"
     },
     "01036882295": {
       "student_name": "Ziad",
