@@ -437,9 +437,16 @@
           "code": "print(f\"Robot has {battery\")} batteries\")",
           "output": "Robot has battery\") batteries",
           "is_correct": false
+        },
+        "guided_1": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٤١:٣٧ م",
+          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = 5\n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 3\n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = fuel+extra_feul\nPrint(total_ feul)\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif \n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
+          "output": "Mission ready\nFind more fuel\nfuel+extra_feul",
+          "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٧:١٩ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٤١:٣٧ م"
     }
   }
 }
