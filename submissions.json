@@ -441,7 +441,7 @@
         },
         "mcq_7": {
           "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٠:٥١ م",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٠ م",
           "answer": 1,
           "chosen_text": "print(f\"You have {gems}\")",
           "is_correct": true
@@ -475,7 +475,7 @@
           "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٤٣ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٠ م"
     }
   }
 }
