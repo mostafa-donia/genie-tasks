@@ -433,11 +433,8 @@
           "is_correct": true
         },
         "mcq_6": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٠:١٨ م",
-          "answer": 1,
-          "chosen_text": "Recharge",
-          "is_correct": true
+          "status": "skipped",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٤ م"
         },
         "mcq_7": {
           "status": "solved",
@@ -475,7 +472,7 @@
           "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٣ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٥ م"
     }
   }
 }
