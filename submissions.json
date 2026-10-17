@@ -472,9 +472,16 @@
           "answer": 1,
           "chosen_text": "print(f\"You have {gems}\")",
           "is_correct": true
+        },
+        "mcq_8": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٤١ م",
+          "answer": 1,
+          "chosen_text": "keys = int(input(\"Keys: \"))",
+          "is_correct": true
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٣٥ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٤٢ م"
     }
   }
 }
