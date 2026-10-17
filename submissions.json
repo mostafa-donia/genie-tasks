@@ -424,78 +424,15 @@
       "phone": "01036882295",
       "week_id": "week_02",
       "submissions": {
-        "mcq_1": {
+        "fix_1": {
           "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٠:٣٠ م",
-          "answer": 1,
-          "chosen_text": "==",
-          "is_correct": true
-        },
-        "mcq_2": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٠:٣٣ م",
-          "answer": 1,
-          "chosen_text": "Robot powered",
-          "is_correct": true
-        },
-        "mcq_3": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٠:٤٧ م",
-          "answer": 0,
-          "chosen_text": "hearts = 3",
-          "is_correct": true
-        },
-        "mcq_4": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣١:٠٠ م",
-          "answer": 1,
-          "chosen_text": "input",
-          "is_correct": true
-        },
-        "mcq_5": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣١:٤٢ م",
-          "answer": 0,
-          "chosen_text": "10",
-          "is_correct": true
-        },
-        "mcq_6": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٠٣ م",
-          "answer": 1,
-          "chosen_text": "Recharge",
-          "is_correct": true
-        },
-        "mcq_7": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٣٥ م",
-          "answer": 1,
-          "chosen_text": "print(f\"You have {gems}\")",
-          "is_correct": true
-        },
-        "mcq_8": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٤١ م",
-          "answer": 1,
-          "chosen_text": "keys = int(input(\"Keys: \"))",
-          "is_correct": true
-        },
-        "mcq_9": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٥٢ م",
-          "answer": 1,
-          "chosen_text": "temperature < 10",
-          "is_correct": true
-        },
-        "mcq_10": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٣:٠٨ م",
-          "answer": 1,
-          "chosen_text": "9",
-          "is_correct": true
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢٠ م",
+          "code": "if gold = 9",
+          "output": "Treasure open\nKeep collecting",
+          "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٣:٠٨ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢١ م"
     }
   }
 }
