@@ -426,13 +426,13 @@
       "submissions": {
         "fix_1": {
           "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢٠ م",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢٥ م",
           "code": "if gold = 9",
           "output": "Treasure open\nKeep collecting",
           "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢١ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢٦ م"
     }
   }
 }
