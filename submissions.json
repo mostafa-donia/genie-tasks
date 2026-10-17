@@ -416,11 +416,8 @@
           "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٧ م"
         },
         "mcq_4": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٥٥ م",
-          "answer": 1,
-          "chosen_text": "input",
-          "is_correct": true
+          "status": "skipped",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٩ م"
         },
         "mcq_5": {
           "status": "solved",
@@ -469,7 +466,7 @@
           "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٧ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٩ م"
     }
   }
 }
