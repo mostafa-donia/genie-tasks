@@ -423,8 +423,16 @@
       "student_name": "Ziad",
       "phone": "01036882295",
       "week_id": "week_02",
-      "submissions": {},
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٢٧:١٦ م"
+      "submissions": {
+        "mcq_1": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٢٨:١٠ م",
+          "answer": 1,
+          "chosen_text": "==",
+          "is_correct": true
+        }
+      },
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٢٨:١١ م"
     }
   }
 }
