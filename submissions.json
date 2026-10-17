@@ -396,8 +396,16 @@
       "student_name": "كريم اشرف مسعد",
       "phone": "01098317910",
       "week_id": "week_02",
-      "submissions": {},
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٧:٣٩ م"
+      "submissions": {
+        "mcq_1": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٧:٥٨ م",
+          "answer": 0,
+          "chosen_text": "=",
+          "is_correct": false
+        }
+      },
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٨:٠٠ م"
     }
   }
 }
