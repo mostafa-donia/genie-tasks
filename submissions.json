@@ -458,9 +458,16 @@
           "answer": 0,
           "chosen_text": "10",
           "is_correct": true
+        },
+        "mcq_6": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٠٣ م",
+          "answer": 1,
+          "chosen_text": "Recharge",
+          "is_correct": true
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣١:٤٢ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٢:٠٤ م"
     }
   }
 }
