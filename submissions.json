@@ -445,9 +445,16 @@
           "answer": 1,
           "chosen_text": "print(f\"You have {gems}\")",
           "is_correct": true
+        },
+        "mcq_8": {
+          "status": "solved",
+          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠١:١٢ م",
+          "answer": 2,
+          "chosen_text": "keys = print(\"Keys: \")",
+          "is_correct": false
         }
       },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٠:٥٢ م"
+      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠١:١٣ م"
     }
   }
 }
