@@ -448,13 +448,13 @@
         },
         "mcq_8": {
           "status": "solved",
-          "timestamp": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٢٥ م",
-          "answer": 0,
-          "chosen_text": "keys = input(\"Keys: \")",
+          "timestamp": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٢٧ م",
+          "answer": 2,
+          "chosen_text": "keys = print(\"Keys: \")",
           "is_correct": false
         }
       },
-      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٢٥ م"
+      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٢٨ م"
     }
   }
 }
