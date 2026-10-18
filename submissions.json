@@ -396,77 +396,8 @@
       "student_name": "كريم اشرف مسعد",
       "phone": "01098317910",
       "week_id": "week_02",
-      "submissions": {
-        "mcq_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٨ م",
-          "answer": 1,
-          "chosen_text": "==",
-          "is_correct": true
-        },
-        "mcq_2": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٥ م",
-          "answer": 1,
-          "chosen_text": "Robot powered",
-          "is_correct": true
-        },
-        "mcq_3": {
-          "status": "skipped",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٧ م"
-        },
-        "mcq_4": {
-          "status": "skipped",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٩ م"
-        },
-        "mcq_5": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٣:٥٩:٤٠ م",
-          "answer": 0,
-          "chosen_text": "10",
-          "is_correct": true
-        },
-        "mcq_6": {
-          "status": "skipped",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٤ م"
-        },
-        "mcq_7": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٥٠ م",
-          "answer": 1,
-          "chosen_text": "print(f\"You have {gems}\")",
-          "is_correct": true
-        },
-        "mcq_8": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠١:١٤ م",
-          "answer": 1,
-          "chosen_text": "keys = int(input(\"Keys: \"))",
-          "is_correct": true
-        },
-        "mcq_9": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠١:٣٤ م",
-          "answer": 1,
-          "chosen_text": "temperature < 10",
-          "is_correct": true
-        },
-        "mcq_10": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٢:١٠ م",
-          "answer": 1,
-          "chosen_text": "9",
-          "is_correct": true
-        },
-        "fix_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٣:٤٢ م",
-          "code": "if gold = 9:",
-          "output": "Treasure open\nKeep collecting",
-          "is_correct": false
-        }
-      },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ٤:٠٤:٠٩ م"
+      "submissions": {},
+      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٢:٣٢ م"
     }
   }
 }
