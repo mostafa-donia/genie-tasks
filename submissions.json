@@ -452,9 +452,16 @@
           "answer": 1,
           "chosen_text": "keys = int(input(\"Keys: \"))",
           "is_correct": true
+        },
+        "mcq_9": {
+          "status": "solved",
+          "timestamp": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٥٣ م",
+          "answer": 1,
+          "chosen_text": "temperature < 10",
+          "is_correct": true
         }
       },
-      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٣١ م"
+      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٦:٥٣ م"
     }
   }
 }
