@@ -487,9 +487,16 @@
           "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = if fuel>3\nprint(\"find more fuel\")\n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 4\n\n# 3. احسب الوقود الكلي باستخدام +\nt=f+e\ntotal_fuel = \n\n# 4. لو الوقود الكلي 7 أو أكتر\nif \n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
           "output": "find more fuel\nMission ready\nFind more fuel\ntotal_fuel",
           "is_correct": false
+        },
+        "solo_1": {
+          "status": "solved",
+          "timestamp": "١٨‏/١٠‏/٢٠٢٦، ٩:٠٣:٠٤ م",
+          "code": "# اكتب برنامجك من الصفر هنا!\npoints=20\ndamage==10\nif health >10\nprint(\"still strong\")\nelse:\nprint(\"nead a potion\")\ndamage(f\"damage is {damage}\")\n",
+          "output": "still strong\nnead a potion",
+          "is_correct": false
         }
       },
-      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٥٤:٠٣ م"
+      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٩:٠٣:٠٥ م"
     }
   }
 }
