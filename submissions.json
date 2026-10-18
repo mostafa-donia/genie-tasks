@@ -469,13 +469,13 @@
         },
         "fix_1": {
           "status": "solved",
-          "timestamp": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٧:٢٢ م",
+          "timestamp": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٧:٢٨ م",
           "code": "if gold = 9:",
           "output": "Treasure open\nKeep collecting",
           "is_correct": false
         }
       },
-      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٧:٢٢ م"
+      "last_active": "١٨‏/١٠‏/٢٠٢٦، ٨:٣٧:٢٩ م"
     }
   }
 }
