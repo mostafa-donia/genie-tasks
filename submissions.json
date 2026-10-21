@@ -417,13 +417,13 @@
         },
         "fix_1": {
           "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٥:٠٩ م",
-          "code": "if gold = 8:",
+          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:١٨ م",
+          "code": "if gold <  = 8:",
           "output": "Treasure open\nKeep collecting",
           "is_correct": false
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٥:١٠ م"
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:١٩ م"
     },
     "01036882295": {
       "student_name": "Ziad",
