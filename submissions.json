@@ -358,9 +358,16 @@
           "answer": 1,
           "chosen_text": "Robot powered",
           "is_correct": true
+        },
+        "mcq_3": {
+          "status": "solved",
+          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:١١ م",
+          "answer": 0,
+          "chosen_text": "hearts = 3",
+          "is_correct": true
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٠٦ م"
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:١٢ م"
     },
     "01036882295": {
       "student_name": "Ziad",
