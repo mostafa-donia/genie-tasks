@@ -393,9 +393,16 @@
           "answer": 1,
           "chosen_text": "print(f\"You have {gems}\")",
           "is_correct": true
+        },
+        "mcq_8": {
+          "status": "solved",
+          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٣:٠٠ م",
+          "answer": 1,
+          "chosen_text": "keys = int(input(\"Keys: \"))",
+          "is_correct": true
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٤٩ م"
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٣:٠٣ م"
     },
     "01036882295": {
       "student_name": "Ziad",
