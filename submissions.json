@@ -414,9 +414,16 @@
           "answer": 1,
           "chosen_text": "9",
           "is_correct": true
+        },
+        "fix_1": {
+          "status": "solved",
+          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٥:٠٩ م",
+          "code": "if gold = 8:",
+          "output": "Treasure open\nKeep collecting",
+          "is_correct": false
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٤:٥١ م"
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٥:١٠ م"
     },
     "01036882295": {
       "student_name": "Ziad",
