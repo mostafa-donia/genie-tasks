@@ -421,9 +421,16 @@
           "code": "if gold <  = 8:",
           "output": "Treasure open\nKeep collecting",
           "is_correct": false
+        },
+        "fix_2": {
+          "status": "solved",
+          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٣٣ م",
+          "code": "print(\"Robot has {battery} batteries\")",
+          "output": "Robot has {battery} batteries",
+          "is_correct": false
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٢٦ م"
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٣٥ م"
     },
     "01036882295": {
       "student_name": "Ziad",
