@@ -351,9 +351,16 @@
           "answer": 1,
           "chosen_text": "==",
           "is_correct": true
+        },
+        "mcq_2": {
+          "status": "solved",
+          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٠٥ م",
+          "answer": 1,
+          "chosen_text": "Robot powered",
+          "is_correct": true
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤١:٥٠ م"
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٠٦ م"
     },
     "01036882295": {
       "student_name": "Ziad",
