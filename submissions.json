@@ -235,19 +235,11 @@
   },
   "students": {
     "01080922432": {
-      "student_name": "محمد احمد",
+      "student_name": "علي كمال",
       "phone": "01080922432",
       "week_id": "week_02",
-      "submissions": {
-        "guided_1": {
-          "status": "solved",
-          "timestamp": "١٥‏/١٠‏/٢٠٢٦، ٧:٣٨:٢٠ م",
-          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = \n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 4\n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = 3+extra_fuel\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif total_fuel >=7:\n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
-          "output": "Mission ready\nFind more fuel\n7",
-          "is_correct": false
-        }
-      },
-      "last_active": "١٥‏/١٠‏/٢٠٢٦، ٧:٣٨:٢٦ م"
+      "submissions": {},
+      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٠:٥١ م"
     },
     "151311151315": {
       "student_name": "..",
