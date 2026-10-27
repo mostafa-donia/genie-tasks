@@ -433,33 +433,11 @@
       "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٣٥ م"
     },
     "01036882295": {
-      "student_name": "Ziad",
+      "student_name": "Ziad Emad",
       "phone": "01036882295",
       "week_id": "week_02",
-      "submissions": {
-        "fix_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٥:٢٥ م",
-          "code": "if gold = 9",
-          "output": "Treasure open\nKeep collecting",
-          "is_correct": false
-        },
-        "fix_2": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٣٧:١٨ م",
-          "code": "print(f\"Robot has {battery\")} batteries\")",
-          "output": "Robot has battery\") batteries",
-          "is_correct": false
-        },
-        "guided_1": {
-          "status": "solved",
-          "timestamp": "١٧‏/١٠‏/٢٠٢٦، ١٢:٤١:٣٨ م",
-          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = 5\n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = 3\n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = fuel+extra_feul\nPrint(total_ feul)\n\n# 4. لو الوقود الكلي 7 أو أكتر\nif \n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
-          "output": "Mission ready\nFind more fuel\nfuel+extra_feul",
-          "is_correct": false
-        }
-      },
-      "last_active": "١٧‏/١٠‏/٢٠٢٦، ١٢:٤١:٤٠ م"
+      "submissions": {},
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٥:٠٥ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
