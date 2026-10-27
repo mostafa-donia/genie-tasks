@@ -478,9 +478,16 @@
           "answer": 1,
           "chosen_text": "Recharge",
           "is_correct": true
+        },
+        "mcq_7": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٨:٢١ م",
+          "answer": 1,
+          "chosen_text": "print(f\"You have {gems}\")",
+          "is_correct": true
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٧:٥١ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٨:٢٢ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
