@@ -436,8 +436,16 @@
       "student_name": "Ziad Emad",
       "phone": "01036882295",
       "week_id": "week_02",
-      "submissions": {},
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٥:٠٥ م"
+      "submissions": {
+        "mcq_1": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٦:١٧ م",
+          "answer": 1,
+          "chosen_text": "==",
+          "is_correct": true
+        }
+      },
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٦:١٧ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
