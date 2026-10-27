@@ -485,9 +485,16 @@
           "answer": 1,
           "chosen_text": "print(f\"You have {gems}\")",
           "is_correct": true
+        },
+        "mcq_8": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٩:١٤ م",
+          "answer": 1,
+          "chosen_text": "keys = int(input(\"Keys: \"))",
+          "is_correct": true
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٨:٤٨ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٩:١٤ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
