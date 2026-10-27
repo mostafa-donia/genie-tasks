@@ -365,9 +365,16 @@
           "answer": 1,
           "chosen_text": "input",
           "is_correct": true
+        },
+        "mcq_3": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٧:٢٦ م",
+          "answer": 0,
+          "chosen_text": "hearts = 3",
+          "is_correct": true
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٧:٢٠ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٧:٢٦ م"
     },
     "01036882295": {
       "student_name": "Ziad Emad",
