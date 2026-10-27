@@ -524,9 +524,16 @@
           "code": "print(\"Robot has {battery} batteries\")",
           "output": "Robot has {battery} batteries",
           "is_correct": false
+        },
+        "solo_1": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:١٩ م",
+          "code": "# اكتب برنامجك من الصفر هنا!\n",
+          "output": "",
+          "is_correct": false
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:١٧ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:٢٠ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
