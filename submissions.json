@@ -506,9 +506,16 @@
           "answer": 1,
           "chosen_text": "9",
           "is_correct": true
+        },
+        "fix_1": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣١:١٠ م",
+          "code": "if gold = >8:",
+          "output": "Treasure open\nKeep collecting",
+          "is_correct": false
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٩:٥٧ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣١:١٠ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
