@@ -347,90 +347,13 @@
       "submissions": {
         "mcq_1": {
           "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤١:٥٠ م",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٦:٤٩ م",
           "answer": 1,
           "chosen_text": "==",
           "is_correct": true
-        },
-        "mcq_2": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٠٥ م",
-          "answer": 1,
-          "chosen_text": "Robot powered",
-          "is_correct": true
-        },
-        "mcq_3": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:١١ م",
-          "answer": 0,
-          "chosen_text": "hearts = 3",
-          "is_correct": true
-        },
-        "mcq_4": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:١٨ م",
-          "answer": 1,
-          "chosen_text": "input",
-          "is_correct": true
-        },
-        "mcq_5": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٣٠ م",
-          "answer": 0,
-          "chosen_text": "10",
-          "is_correct": true
-        },
-        "mcq_6": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٣٨ م",
-          "answer": 1,
-          "chosen_text": "Recharge",
-          "is_correct": true
-        },
-        "mcq_7": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٢:٤٨ م",
-          "answer": 1,
-          "chosen_text": "print(f\"You have {gems}\")",
-          "is_correct": true
-        },
-        "mcq_8": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٧:٤٣:٠٠ م",
-          "answer": 1,
-          "chosen_text": "keys = int(input(\"Keys: \"))",
-          "is_correct": true
-        },
-        "mcq_9": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٤:٤٤ م",
-          "answer": 1,
-          "chosen_text": "temperature < 10",
-          "is_correct": true
-        },
-        "mcq_10": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٤:٥٠ م",
-          "answer": 1,
-          "chosen_text": "9",
-          "is_correct": true
-        },
-        "fix_1": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٢٥ م",
-          "code": "if gold <  = 8:",
-          "output": "Treasure open\nKeep collecting",
-          "is_correct": false
-        },
-        "fix_2": {
-          "status": "solved",
-          "timestamp": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٣٣ م",
-          "code": "print(\"Robot has {battery} batteries\")",
-          "output": "Robot has {battery} batteries",
-          "is_correct": false
         }
       },
-      "last_active": "٢١‏/١٠‏/٢٠٢٦، ٨:٠٦:٣٥ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٦:٥٠ م"
     },
     "01036882295": {
       "student_name": "Ziad Emad",
