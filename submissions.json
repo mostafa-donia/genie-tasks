@@ -403,13 +403,13 @@
         },
         "mcq_9": {
           "status": "solved",
-          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٨:٤٨ م",
-          "answer": 2,
-          "chosen_text": "temperature = 10",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٨:٥١ م",
+          "answer": 0,
+          "chosen_text": "temperature > 10",
           "is_correct": false
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٨:٤٩ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٨:٥٢ م"
     },
     "01036882295": {
       "student_name": "Ziad Emad",
