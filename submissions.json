@@ -437,11 +437,14 @@
           "is_correct": false
         },
         "solo_1": {
-          "status": "skipped",
-          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٤٦:١٤ م"
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١١:٠٦:٢٧ م",
+          "code": "# اكتب برنامجك من الصفر هنا!\n",
+          "output": "",
+          "is_correct": false
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٤٦:١٤ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١١:٠٦:٢٨ م"
     },
     "01036882295": {
       "student_name": "Ziad Emad",
