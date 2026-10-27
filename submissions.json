@@ -450,9 +450,23 @@
           "answer": 1,
           "chosen_text": "Robot powered",
           "is_correct": true
+        },
+        "mcq_3": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٦:٥٦ م",
+          "answer": 0,
+          "chosen_text": "hearts = 3",
+          "is_correct": true
+        },
+        "mcq_4": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٧:١٣ م",
+          "answer": 1,
+          "chosen_text": "input",
+          "is_correct": true
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٦:٥٨ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٢٧:١٤ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
