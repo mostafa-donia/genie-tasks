@@ -351,9 +351,16 @@
           "answer": 1,
           "chosen_text": "==",
           "is_correct": true
+        },
+        "mcq_2": {
+          "status": "solved",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٧:١٠ م",
+          "answer": 0,
+          "chosen_text": "Find batteries",
+          "is_correct": false
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٦:٥٠ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٧:١١ م"
     },
     "01036882295": {
       "student_name": "Ziad Emad",
