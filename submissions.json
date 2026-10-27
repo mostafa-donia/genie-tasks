@@ -515,11 +515,8 @@
           "is_correct": false
         },
         "guided_1": {
-          "status": "solved",
-          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:١٢ م",
-          "code": "# 1. خزّن الوقود اللي مع رائد الفضاء\nfuel = \n\n# 2. خزّن الوقود اللي هيجمعه\nextra_fuel = \n\n# 3. احسب الوقود الكلي باستخدام +\ntotal_fuel = \n\n# 4. لو الوقود الكلي 7 أو أكتر\nif \n    print(\"Mission ready\")\nelse:\n    print(\"Find more fuel\")\n\n# 5. اطبع الوقود الكلي\nprint(total_fuel)",
-          "output": "Mission ready\nFind more fuel\ntotal_fuel",
-          "is_correct": false
+          "status": "skipped",
+          "timestamp": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:١٦ م"
         },
         "fix_2": {
           "status": "solved",
@@ -529,7 +526,7 @@
           "is_correct": false
         }
       },
-      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:١٥ م"
+      "last_active": "٢٧‏/١٠‏/٢٠٢٦، ١٠:٣٢:١٧ م"
     },
     "01098317910": {
       "student_name": "كريم اشرف مسعد",
